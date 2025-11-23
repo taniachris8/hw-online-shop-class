@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: linear-gradient(175deg, rgb(128, 111, 40) 0 50%, grey 50% 100%);
+}
+
+.item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.item-image {
+  width: 400px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.window {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 10px;
+  background-color: white;
+  width: 30%;
+  color: black;
+  padding: 30px 20px 20px 10px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  border: 2px dashed black;
+  padding: 8px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: gray;
+  font-size: 16px;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.divider {
+  align-self: center;
+  width: 200px;
+  height: 1px;
+  background-color: gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.purchase-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 36px;
+}
+
+button {
+  width: 180px;
+  height: 36px;
+  border: none;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  cursor: pointer;
+}
